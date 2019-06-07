@@ -1,0 +1,23 @@
+Django==1.11.3
+django-extensions==1.7.9
+django-widget-tweaks==1.4.3
+
+django-disposable-email-checker==1.2.1
+
+# feedparser
+feedparser==5.2.1
+
+# Rest Framework
+djangorestframework==3.6.3
+
+# for date processing
+python-dateutil==2.6.0
+
+shortuuid==0.5.0
+django-phonenumber-field==1.1.0
+
+requests==2.18.3
+beautifulsoup4==4.6.3
+lxml==4.2.5
+
+
