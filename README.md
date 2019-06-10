@@ -22,6 +22,11 @@ the feedparser library
 * `$ cd aggregator`
 * `$ python manage.py runserver`
 
+## Running Test
+
+* `$ cd aggregator`
+* `$ python manage.py test`
+
 ## Adding Feeds
 
 * append a `/feed` to your blog domain you want to add to your feed list.
