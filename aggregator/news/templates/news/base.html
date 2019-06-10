@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Django News Aggregator</title>
+    <title>Simple News Aggregator</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -26,12 +26,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Django News Aggregator</a>
+          <a class="navbar-brand" href="#">Simple News Aggregator</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="{% url 'articles_list' %}">Home</a></li>
-            <li><a href="{% url 'feeds_list' %}">Feeds</a></li>
+            <li><a href="{% url 'news:articles_list' %}">Home</a></li>
+            <li><a href="{% url 'news:feeds_list' %}">Feeds</a></li>
           </ul>
         </div>
       </div>

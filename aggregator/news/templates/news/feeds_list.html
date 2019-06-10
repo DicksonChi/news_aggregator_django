@@ -10,7 +10,7 @@
 </div>
 
 <div class="container">
-  <a href="{% url 'feed_new' %}" class="btn btn-primary">New Feed</a>
+  <a href="{% url 'news:feed_new' %}" class="btn btn-primary">New Feed</a>
   <hr>
   <ul>
     {% for feed in feeds %}
@@ -19,7 +19,7 @@
   </ul>
 
   <footer>
-    <p>&copy; 2019 Django News Aggregator</p>
+    <p>&copy; 2019 Simple News Aggregator</p>
   </footer>
 </div> <!-- /container -->
 
